@@ -1,0 +1,30 @@
+{
+  "name": "dr-dobby-xmtp-agent",
+  "version": "1.0.0",
+  "description": "Dr. Dobby - A charming Love Doctor XMTP agent powered by Sentient Dobby Unhinged",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["xmtp", "ai", "chatbot", "sentient", "dobby", "love-doctor"],
+  "author": "Dr. Dobby",
+  "license": "MIT",
+  "dependencies": {
+    "@xmtp/agent-sdk": "1.1.7",
+    "@xmtp/content-type-remote-attachment": "^2.0.2",
+    "@xmtp/content-type-reaction": "^1.0.1",
+    "@xmtp/content-type-reply": "^1.0.1",
+    "@xmtp/content-type-text": "^1.0.1",
+    "ethers": "^6.8.0",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.0",
+    "winston": "^3.11.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
