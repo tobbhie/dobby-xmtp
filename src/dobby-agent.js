@@ -223,7 +223,7 @@ export class DrDobbyAgent {
     return {
       isRunning: !!this.agent,
       address: this.agent?.address,
-      stats: this.conversationManager.getStats(),
+      //stats: this.conversationManager.getStats(),
       network: process.env.XMTP_ENV || "dev",
     };
   }

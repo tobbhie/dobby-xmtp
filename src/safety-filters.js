@@ -4,7 +4,7 @@ export class SafetyFilters {
   constructor() {
     this.blockedPatterns = [
       // Explicit content patterns
-      /\b(sex|sexual|porn|nude|naked|fuck|fucking|shit|bitch|asshole)\b/i,
+      // /\b(sex|sexual|porn|nude|naked|fuck|fucking|shit|bitch|asshole)\b/i,
       // Medical/clinical advice patterns
       /\b(diagnose|diagnosis|medical|clinical|therapy|therapist|psychiatrist|medication|drug|prescription)\b/i,
       // Harmful content patterns
